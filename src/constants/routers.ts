@@ -1,1 +1,6 @@
-export const ROUTERS = {};
+export const ROUTERS = {
+  HOME: {
+    PATH: "/",
+    LABEL: "global.home",
+  },
+};
