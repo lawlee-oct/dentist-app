@@ -32,7 +32,7 @@ export class AxiosClient {
     this.instance.interceptors.response.use(this._handleResponseSuccess, this._handleResponseError);
   };
 
-  _handleRequestSuccess = (config: AxiosRequestConfig): AxiosRequestConfig<any> => {
+  _handleRequestSuccess = (config: AxiosRequestConfig): any => {
     return config;
   };
 
